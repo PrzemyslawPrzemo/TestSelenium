@@ -56,7 +56,7 @@ The framework utilizes the Page Factory pattern to initialize elements on pages.
 1. Clone the repository
 2. Install Maven dependencies: `mvn clean install`
 
-NOTE! If you have a problem with downloading the Monte Screen Recorder plugin, go to step no. 3.
+> NOTE! If you have a problem with downloading the Monte Screen Recorder plugin, go to step no. 3.
 3. Install the recording plugin: `mvn initialize`
 
 ### Running Tests

@@ -32,13 +32,11 @@
   </properties>
 
   <dependencies>
-    <!-- Selenium -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>${selenium.version}</version>
     </dependency>
-    <!-- Cucumber -->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java</artifactId>
@@ -56,19 +54,16 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
-    <!-- AssertJ -->
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
       <version>${assertj.version}</version>
     </dependency>
-    <!-- WebDriverManager -->
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
       <version>${webdrivermanager.version}</version>
     </dependency>
-    <!-- Log4j 2 -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
@@ -84,25 +79,21 @@
       <artifactId>log4j-slf4j2-impl</artifactId>
       <version>${log4j.version}</version>
     </dependency>
-    <!-- SLF4J -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
       <version>${slf4j.version}</version>
     </dependency>
-    <!-- Allure Cucumber JVM -->
     <dependency>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-cucumber7-jvm</artifactId>
       <version>${allure.version}</version>
     </dependency>
-    <!-- Monte Media Library -->
     <dependency>
       <groupId>org.monte</groupId>
       <artifactId>monte-screen-recorder</artifactId>
       <version>${monte.version}</version>
     </dependency>
-    <!-- Apache Commons IO (for file operations) -->
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
@@ -112,7 +103,6 @@
 
   <build>
     <plugins>
-      <!-- Plugin Surefire do uruchamiania testów -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
